@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #website{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+    
+    #nav_bar{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 700px;
+      padding: 20px 0px;
+    }
+
+      #nav_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+
+        #nav_text{
+          size: 20px;
+          color: grey;
+        }
+
+          #icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+          }
+
+          #icon{
+            height: 50px;
+            width: 50px;
+          }
+
+          
+          #bundel{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px black solid;
+            padding: 100px 500px;
+            background-image: url(https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/home-bg.png);
+            background-attachment: fixed;
+        }
+
+
+          #heading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: xx-large;
+            font-style: normal;
+          }
+ 
+          #bundel_para{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            color: white;
+            
+          }
+
+          #searchbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px black solid;
+            padding: 10px 15px;
+            gap: 20px;
+            background-color: black;
+            border-radius: 3px;
+          }
+
+          #heading{
+            color: white;
+          }
+          
+          #enter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: gray;
+            background-color: white;
+            border-radius: 3px;
+            padding: 3px 80px;
+          }
+
+          #subscribe{
+            border: 1px black solid;
+            color: whitesmoke;
+            background-color: rgb(68, 144, 211);
+            border-radius: 3px;
+            padding: 5px 5px;
+            cursor: pointer;
+          }
+
+          #note{
+            color: white;
+          }
+
+          #books{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 70px 50px;
+            gap: 50px;
+            border: 1px rgba(0, 0, 0, 0.137) solid;
+            background-color: whitesmoke;
+          }
+
+          #image{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 200px;
+            gap: 10px;
+          }
+          
+          #heading1{
+            color: grey;
+          }
+
+          #para1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+          }
+
+          #image1pic{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+          #image1picc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 100px;
+          }
+
+          #imagee{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 150px;
+            gap: 5px;
+          }
+          
+          #heading2{
+            color: grey;
+          }
+
+          #para2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+            padding: 0px 10px;
+            font-size: medium;
+          }
+
+          #image2pic{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+          #image2picc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 90px;
+          }
+
+          #imageee{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 200px;
+            gap: 10px;
+          }
+          
+          #heading3{
+            color: grey;
+          }
+
+          #para3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+          }
+
+          #image3pic{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+          #image3picc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 100px;
+          }
+
+          #trusted{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0px;
+          }
+
+          #quote1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.636);
+
+
+          }
+
+          #quote2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+          }
+
+          #sponsers{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            padding: 30px 0px;
+          }
+
+          #review {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px white solid;
+            padding: 20px;
+            gap: 5px;
+            background-color: #e2dedec3;
+        }
+
+        #reviewone {
+          display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            color: rgba(0, 0, 0, 0.636);
+        }
+
+        #reviewtwo {
+          display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+        }
+
+        #reviewthree {
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 0px;
+        }
+
+        #rone {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px white solid;
+            background-color: white;
+            padding: 10px 25px;
+            gap: 25px;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+
+        #rsubone {
+            padding:10px 5px;
+            background-color: whitesmoke;
+            border-radius: 5%;
+        }
+
+        #rsub {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+        }
+
+        #rtwo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            background-color: white;
+            padding: 10px 25px;
+            gap: 25px;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+
+        #rsubonen {
+            padding: 10px 10px;
+            background-color: whitesmoke;
+            border-radius: 5%;
+        }
+
+
+          
+
+        #locker{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;  
+            border: 1px white solid;  
+            gap: 200px;
+            padding: 20px 50px;
+        }
+
+        #locker1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            border: 1px white solid; 
+            gap: 25px; 
+            padding: 10px 10px;
+            height: 300px;
+            width: 300px;
+        }
+
+        #one{
+            font-size: 30px;
+        
+        }
+
+        #two{
+            font-size: 15px;
+            color: gray;
+        }
+
+        #three{
+            color: white;
+            background-color: #00aeef;
+            border: 1px white solid;
+            border-radius: 5%;
+            padding:15px 30px;
+            cursor: pointer;
+        }
+
+        #locker2{
+            border: 1px white solid;
+            padding: opx 100px;
+        }
+
+        #last{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(248, 246, 246);
+          padding: 20px 100px;
+          gap: 2px;
+       }
+       #last1box{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 2px 20px;
+          gap: 10px;
+          color: grey;
+       }
+
+       #last1{
+        font-size: x-small;
+       }
+
+          #last1b{
+            color: orangered;
+          }
+
+       #last2box{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 3px 80px;
+          gap: 100px;
+          color: grey;
+        }
+
+        #last2{
+          font-size: x-small;
+        }
+</style>
+<body>
+  <div id="website">
+    <div id="nav_bar">
+      <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo.png" alt="">
+      <div id="nav_menu">
+        <div id="nav_text">Stay connected</div>
+        <div id="icons">
+          <img id="icon" src="data:image/png;base64,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" alt="">
+          <img id="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///8ajNwai9scmOkaitocmeocl+gcmusaidkajd0clucbk+QbkuMcm+waiNgblOUAiuAAkeYAl+wAi+EAgtb2+/7k8fsAhNnx+P0AftQAkejX6fgAlezN5fnB3vaHwO6dyvB3tuk/oeiu0O9arewzm+UAiOGXzfbT5/goleJEnOCSw+yrzu7G3/VfpeAzkdlKq+5ute93vvK12/iHxvWp1fhetfJJoeNusOehxuyHuuhtquN2suWBvu9Km9281/L+ru99AAAOWklEQVR4nN3dWXeiSBQAYEATZRMKwhKJiFu3SzRGY2K29v//q0HcQIulFhTmPszDnNMz+bqqbi1U3TBM3mHYjrvy2ov3eXcgy7U7eTDozufvi7a3ch3byP3/n2fYzvLv61xuNoHmx32lUrnbRq3m/6NS8f/V01NTnr++LR371j8qRjjLxVwGPk04yo5RC0VAfZLni6Vz6x8ZIZzVewUAIbDtI55Yq8nbvus75b5XBqW97Nw1gSLch3gZiHLA9BtzsSx0jzWXfSHQBYFM3Cq1p9r7yrw1BB7GlnfQYRODppT7y+Ll2NYrAIoSAeISg6bUXlu3JoXDXnWbohAEJaIsa0/dv0UZks5vxR98h6BG9JHyogjJ1ekDSQgHRaJ8p/WHN/a15rokKEJuRLn2NL/lgGz19e3wU/Ik+sb+rYyn/pkv0c+s77cYj/YiNP5yJsqatrh6XvW2C0/hakTfuLqqr9XVxSgqd6Ksda83HI0OkJRtXJdY0xZXWsu5ClD2cV2irNXcK/js120HvRFR1l5zzzjTAVDCcW3i3SDnZmzrQFRuSpS1txx9pp9C/bg1cZ7bDtkVgSgWgCjLOfXUCZBEsRhE7W8OPqOvi6e4OfGd+tRoD4AoFonYpTwYndGpixaDKMtU98YuAJJUOCLFfLP6IwVRMOITte2Gp0rS/5o40SWpoEQ6s0Y7BCwekcISrq1KUoGJT8TEyRmwcETSjurp58DiEYnSzfNFCxaQSJJR3T8wYPGI2FO/A/cVjyhjHhjbI740RKzTG2MQDywcsYuzmepD0mhhido7OvByIiw2EXladNOAhSMiJlSTTxqEhSTKaJv+bgZg0YhzFOD5crsURJR9xjQjsGjEaVZg0lRfaOIg68S/1rMLC0W8e80GdP/wWTJpEYnaMgvQADxfXmKW1VtH58tLvFukA1t7YEmJWup1Bn9HwZeZWOumCT2VLzcxbQluczxfdmLypNjR+bITtcRk46g8X35i0qnNrHouLCExab/fumjCchLjZ4wPDiLMnaiI4BDBZX9iYq0f24QWDJgvUQHi4HU1dUzTHG7e5rWmQoH4FNeIHyxcmB9RaXb/RvKC7b4CACdWtMzEWsx2fxjThLkRFR12g9tsA3BJrDwNFtmJT/B02oeOwvyIYB5zm8JeNIUosaLJK6Z/n7mjwtPp5VyYRgQkRElI+GQ07IabUQDdlcGYGsJY1GAHb51EIYQoLglaESTf+DHemvcHXrPvbnd9bQ0h3cBOpWw+oZPCiHyHWcJPrDIQm6nnDS4Q7gUNNLv7t3pmLZRVM7Ti5erUi88zcKJqhu+hoBFBOw3oj5pu933iHn/Q31MTZiFCvgwPUprwnMgHG7E2/PNNCjEL8NwLEOfFi31i3GwfS9S94M91MFoRZDwSC0dXQJz6L2b99eWaO5mo7jPFLzJRGqAD3wDq6uZ8E2VkacIwERx7ATIRoN+bXO4mj3sBhRg9dutlFB6Jeuf4Z2O+NMYRwQQZ2ArKFfhLvLf77MSzs9NZep6JEtVQrlqhEMUR8gfplr/jUJraYsi8Cdk7ai2yrjEzAw9ENbzyawHo8gZKBMi3X5ZNoA0W268uU4A0FsOj4TlrJz0S+chgMrvQWQNCFEXEJrTfuoeKErZ8j5JuIlPiTI3bOMUQ+VF0zWCsM96ekn7RgIx9+qucK0j7xbtQN7X1KotG5AfnTdHLRtTxn9i9A7Qtca12aoWNxbJoxEshY37AeuoZUVSwga/H7UZW4tMpm/7UWUQiRBi8K00jShjLmV0sQvupjMTKadLnORaVCBMyZh/SVSNC4GECXyP7/mzEmnz4047FsqhEEb4wcQeXXTUs1DN9wryMPuRgI53YPExpn0dhdqIat/TyRhfGsBDrFqE9B1gncMf5YlZnkYnqJu7HMTzx3BgS4rzlcQYK3lHxcb44DEMUop6wxTM8Ke76O8C4JukqCuZp+GEgnoYhApFN/hLpdqN5lUDY0gXsA//9R5peVJiRqKaMKOc3knQIhE38bxr7/cWPxWEQk7rpLoxpR9JBlIgxDqcA/7PNfkYcqxwOUc3w0xnur6LvlTsh+pM6NyxEJN4Fx/s2X+dwiHrGnazz/DoAOti9X8SYD5cRIRqxFhwqOhbHYRH5zD3OMDftvs/UgYq+wV9FhWjEINX0dkJ0IrdG+kkN23RXkx6y8C8g+IQapJr2XohOVJ+Rf1yMaAOCr8TB6f53g8MmXqNMVUck+BBe2e5lxnUOm5h9KOJHXyH41l/xk6nBVzkM4kgKPlWN8id2FYLrDHeywdiPHIdO5Mb+JiI43Mm7oxoDheTGRtM+TBaoxO0O2O0MVPUPenZECvtYjwqL+OQwblSYkcjuztoMc9rz8u2owybRvZsn158OqzhErI0eTqxCNcUwiP6E+GlVcYjqNSo2baMdrsqITtQ85ssXYhDTtxaUoh+5wYFM9Kf8daOKQ2Q/riQUooFK9PdPs0CITrSuMxBNneyaX+Wd+dgJkYnXWZQybpPsJqO/QxzXq3hEjG/VGOGvu4mId13m5SBEJVpXqQ7bFcnuo/pCvlrFI14l15hBAWYS4iAsRCSqV6hF6e7mewKizHBVXCI7zl+4IK5yKzPVKjZR9fIGGt2DDJ94JkQj5p5snNOiFJcoM2ydgDjKudbmJLTsxiTKDF8nIHLjfKvCdkWBlDhgXhpExMxPb3HC0YnfaVS6zNgXkhBHOZba/gXET1F84cdWSEBkufwWqJJ4cf0dlViZ+3uLOhmRVz9yasalDrnhj0i8f/f3h3VSIvunk8tWai7BHjGgEbWFv8evExN5XV1PqWfVIY2i2lqb+TwIMYmcquqcrlqPbIdyWu1IsHcaiETNY3oPdRJidbaZ/HY67c8N7Y5qnoAERG3FuCchDpHTKcOO8RspHI5LBC7jPNaJiJaXD9CMVkbHJTYdxg4LMYjsKB9hh05p9KbNGGyDjJhPIzq6SOOh7b3sp/hxRIhOZHP5iNgHIg2isL2M8W3VyYjqjD5wo4fuhhMQte034InVICRa1FemxuBwiYqQGHzH3zw2iIm0F6a/p/LoZESwvYvhPDRIiaxEdyi2qBW4B9u/e5tvEBOrVDfCpz5KSrzfPbT816BApJlQO9ES/gREYfds/eeBApFjMxdLS4ueTq0AhbC7m9jbCUnHIsaVNWg4APJOA5MIdhcFnb2QOKMOaByfGgqQqBHBPsnXG3SInDUj/5TxAc4uThMQhcr+PzprUCLyVWtMePlkDc4vThMQlcNd/c8HasTtln+w9twW5hrgF3I3HJ94fOvoPDboEf2co6uPmPfdzh6/kxKPb2aYaoMqkVMxr6JclE0lIwq143/554EikbXGmDkVUr6AiKicXmNvwkIyIqtin4GvM7xfRCKC07V5u9GgQ2RVdoJ5bmrE1A/HJwr3ocXyjAqxao0muCtwJ7YCPDZRCBfEen4kJnKW9dHDPvd2Jfo1/CPv4s1Gg4TIVS2LnxBM9cm1p/GIihD5gWYPmMR6veHrPjySXb7TTak9jUVUolXbeufCJKIVCv7f2huSbX+99MLMOEQQfYBkXAjjiY1Oz5v44T1vhibx3n74oeZT4B6cJYU1AtH6ImUdw+hk8eEQxc7Z/6r1eCFMIHJ0LugbHs9m8mEQmxcbuZfLRown1q0x+aGF4Y0yNiAO8fIVrwcRJqSbhjUm3O1ufXxuNRkhpQ1sCDAxozYex7Ev1lPDbKuHAnj5ECuQFPgFa8TEebFujbB29Ia7VkMlf/IgQovEOFBh8tRfteqzDeJSbfg1OKuGQ58oAOgK5GJdk4HI+QOSXWd/XTJsj9SzctN5ECV4FdohZMJIJwZIa+Y5aU1pmL01a13y8iDGld/4BxdmWaP6yNFs4jrwJY5tTiffI0uNr7dFlyjG/coZ2KyflbhrSms0nn15m2lrWxfYNJ3hdPPcno1HuqXqyW9SqRLjSzV9wEciwmbKT7ANKxKqWuWyPLilSIwZhUEjxglpnMBdjwgS1iIx6bRcxIQmjJ4Nl5aYXMfoJ7YRS0MEyTXv4KvTMhFFMWVT/hnfT8tB3NfGTYiXcreilPp7Zphp/EgsAzFppjhEQrIpPjElzewCcuxWGqKoZNrKuQnJpuBEPeM+7rusrZi5ULjNl5MIst89myb208ISdYQTzq8yEtEKWcDOhwtOBOlzfTjMRtmIUkzN2Nhwk4XFI2adKE4xSR6KRSOmL7gvI36/X0AiSNrXx4WRkm2KRATQ0tSpsbsAXgYiwC0bF/Mlo3hE+FeKLJGytikK8Q9BVa7zm0SFJJJVOyoBUUf+lSDRSDqZKgQRZyKMRsoi/NZE3Mu6pSHSABa6o5J30V0UNt3QK3LUKyaRZunUxGPiGxF5iWr5zSFXtGU4T7swjl2wnYZOv7iRMSvSlljt51GgavJQlLObzL+1ADWmBTme4vncSvyaL0U4R1WTf9EuYXw93vrAn6ezUIuP6Y2/aagjai+q48L+vuXHtz/rnOsYBrFJzKl5EnX0Y1+8MG70IVzv5FulMRzTpBVOTkR1cIWat6HwErpqHkSd967q88P+iZ84qBOrKu1icJnCmcW2I10ip85yLLCZGK3Y1ThFIkujUgOB8V9MX6VF5KyPW/q24XzD+yoNIqfq/atUfk8J8wu65yAmcirfudX4Ow/78wXSWcmIVWvg3SJ/xkbr5+Git2ITtw/D10XontEwNrMG+aN3lq2qFjvDf/eeb5g9H0lUY4NrWNzs+Vq/hwgr7M0PF0KiELm6ZfE/m0INvphwnmfVw6jMRqyr24fvs+eipM4s4fR+/vEPj5YVRV4Qq/XGtmTBuNMrk+4QtrOZfI/5x8eHh600aNFAVt/W3gpeRT3y4+92L+bJW1nCsB239/m1nv0bv/jTXNWf617GH7P112fPdez8c+Z/qe/qworDSUsAAAAASUVORK5CYII=" alt="">
+          <img id="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHYMj2X47ax9u4cb9WOeKQDi0CUoB7af4Zlw&s" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="bundel">
+    <div id="heading">HTML  BUNDLE  IS  HERE</div>
+    <Pre id="bundel_para"><small>More than 10 unique HTML templates in one bundle isn't that awesome with a
+       lot of features and great design brought to you by PixFort.</small></Pre>
+       <div id="searchbar">
+        <div id="enter">Enter Your Mail</div>
+        <button id="subscribe">SUBCRIBE NOW</button>
+       </div>
+       <h6 id="note">*Note: Bundle ends in two weeks from now.</h6>
+      </div>
+      <div id="books">
+        <img id="videopic" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/1.png" alt="">
+        <div id="video"><b>+1500</b>High quality video tutorials.</div>
+        <img id="demopic" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/2.png" alt="">
+        <div id="demo"><b>+40</b> Days Free trial demo subscribtion.</div>
+        <img id="bookpic" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/3.png" alt="">
+        <div id="book"><b>+75</b>New books from store.</div>
+      </div>
+      <div id="image">
+        <div id="image1">
+          <h2>The most amazing thing is here</h2>
+          <h3 id="heading1">Our service is astonishingly thin and light.</h3>
+          <div id="para1"><small>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small></div>
+      </div>
+      <div id="image1pic">
+        <img id="image1picc" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/machine.png" alt="">
+      </div>
+      </div>
+      <div id="imagee">
+        <div id="image2pic">
+        <img id="image2picc" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/domains-that-never-sleep.png" alt="">
+      </div>
+        <div id="image2">
+          <h2>Bring it to life again with us</h2>
+          <h3 id="heading2">Our service is astonishingly thin and light.</h3>
+          <div id="para2"><small>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small></div>
+      </div>
+      </div>
+      <div id="imageee">
+        <div id="image3">
+          <h2>Responsive ready wordpress</h2>
+          <h3 id="heading3">Our service is astonishingly thin and light.</h3>
+          <div id="para3"><small>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small></div>
+      </div>
+      <div id="image3pic">
+        <img id="image3picc" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/website-builder.png" alt="">
+      </div>
+      </div>
+      <div id="trusted">
+        <div id="quote1">Great people trusted our services</div>
+        <div id="quote2"><small>great words from great people</small></div>
+      </div>
+      <div id="sponsers">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_1.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_2.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_3.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_4.png" alt="">
+      </div>
+      <div id="review">
+        <div id="reviewone">What our awesome clients say</div>
+        <div id="reviewtwo"><small>great words from great people</small></div>
+        <div id="reviewthree">
+            <div id="rone">
+                <div id="rsubone">
+                    <img id="rsub"
+                        src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/envato-logo.png"
+                        alt="">
+                </div>
+                <div id="rsubtwo">
+                    <div id="rsone">Im a web designer, you guys are very inspiring I wish to see more work from maybe more freebies.</div>
+                    <div id="rstwo">
+                        <img
+                            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png">
+                    </div>
+                </div>
+        </div>
+        <div id="rtwo">
+            <div id="rsubonen">
+                <img id="rsub"
+                    src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/unboune-logo.png"
+                    alt="">
+            </div>
+            <div id="rsubtwon">
+                <div id="rsonen">Im a web designer, you guys are very inspiring I wish to see more work from maybe more
+                    freebies.</div>
+                <div id="rstwon">
+                    <img
+                        src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div id="locker">
+        <div id="locker1">
+            <div id="one"><b>Are you ready for this?</b></div>
+            <div id="two">More than 10,000 apps are waiting for you with  awesome features and prices that will be great for you, join us now by entering you email and subscribe us now, wow.</div>
+            <button id="three"><b>SUBSCRIBE NOW</b></button>
+        </div>
+        <div id="locker2">
+            <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/speed-and-security.png" alt="">
+        </div>
+    </div>
+    <div id="last">
+      <div id="last1box">
+      <div id="last1"><small>All rights reserved Copyright ©️ 2014 FLATPACK by </small><b id="last1b">PixFort</b></div>
+      </div>
+      <div id="last2box">
+      <div id="last2"><small>Your likes & share makes us happy!</small></div>
+      </div>
+  </div>
+</body>
+</html>
